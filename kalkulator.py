@@ -5,8 +5,14 @@ def dodaj(a, b):
     wynik(a, b)
     return wynik
     
+def odejmij():
+    return a - b
+   
 get_info()
     
 a = int(input())
 b = int(input())
 print(dodaj(a,b))
+
+
+print('Koniec programu')
